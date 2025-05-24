@@ -1,85 +1,84 @@
 # Data Science Salaries Analysis and Dashboard
 
-## Deskripsi
-Proyek ini bertujuan untuk menganalisis data gaji profesi di bidang Data Science, memvisualisasikan hasil analisis, dan menyajikan dashboard interaktif menggunakan Streamlit. Dashboard ini memungkinkan pengguna untuk mengeksplorasi berbagai informasi terkait gaji berdasarkan berbagai faktor seperti rasio kerja remote, pengalaman, lokasi perusahaan, dan lainnya.
+## Description
+This project aims to analyze salary data for professions in the field of Data Science, visualize the results of the analysis, and present an interactive dashboard using Streamlit. The dashboard allows users to explore various salary-related insights based on factors such as remote work ratio, experience level, company location, and more.
 
-## Fitur
-1. **Analisis Data**
-   - Menganalisis hubungan antara pengalaman kerja dengan gaji.
-   - Menghitung rata-rata gaji berdasarkan rasio kerja remote, ukuran perusahaan, jenis pekerjaan, dan lokasi perusahaan.
-   - Menemukan pola penting dalam data, seperti faktor yang memengaruhi gaji secara signifikan.
+## Feature
+1. **Data Analysis**
+   - Analyze the relationship between work experience and salary.
+   - Calculate average salaries based on remote work ratio, company size, job type, and company location.
+   - Identify key patterns in the data, such as factors that significantly influence salaries.
 
-2. **Visualisasi Data**
-   - Membuat berbagai visualisasi seperti line plot, bar plot, dan box plot untuk menggambarkan hasil analisis.
-   - Menyediakan representasi visual yang mudah dipahami oleh pengguna.
+2. **Data Visualization**
+   - Create various visualizations such as line plots, bar plots, and box plots to illustrate the analysis results.
+   - Provide visual representations that are easy for users to understand.
 
-3. **Dashboard Interaktif**
-   - Mengembangkan dashboard menggunakan Streamlit untuk menyajikan hasil analisis dan visualisasi.
-   - Dashboard ini sudah dideploy sehingga dapat diakses secara online.
+3. **Interactive Dashboard**
+   - Develop dashboards using Streamlit to present analysis results and visualizations.
+   - This dashboard has been deployed so it can be accessed online.
 
-## Instalasi
-### Prasyarat
-Pastikan Anda memiliki Python 3.8 atau lebih baru serta virtual environment yang diaktifkan.
+## Installation
+### Prerequisite
+Make sure you have Python 3.8 or later and a virtual environment enabled.
 
-1. Clone repositori:
+1. Clone repository:
    ```bash
    git clone https://github.com/Adittt17/data_science_salaries.git
    ```
-2. Masuk ke direktori proyek:
+2. Go to the project directory:
    ```bash
    cd dashboard.py
    ```
-3. Aktifkan virtual environment:
+3. Activate virtual environment:
    ```bash
    source myenv/bin/activate  # Mac/Linux
    myenv\Scripts\activate   # Windows
    ```
-4. Instal dependensi:
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Menjalankan Lokally
-1. Jalankan dashboard dengan perintah berikut:
+## Running Locally
+1. Run the dashboard with the following command:
    ```bash
    streamlit run dashboard.py
    ```
-2. Dashboard akan tersedia di browser Anda di `http://localhost:8501`.
+2. The dashboard will be available in your browser at `http://localhost:8501`.
 
-## Akses Dashboard yang Sudah Dideploy
-Dashboard sudah dideploy dan dapat diakses melalui link berikut:
+## Access Deployed Dashboard
+The dashboard has been deployed and can be accessed via the following link.:
 [**Data Science Salaries Dashboard**](https://adit-data-science-salaries.streamlit.app/)
 
-## Visualisasi Utama
-1. **Rata-rata Gaji Berdasarkan Rasio Remote**:
-   - Menunjukkan bahwa pekerjaan onsite memiliki rata-rata gaji tertinggi, diikuti oleh pekerjaan full remote, dan hybrid di posisi terakhir.
+## Main Visualization
+1. **Average Salary Based on Remote Ratio**:
+   - Shows that onsite jobs have the highest average salary, followed by fully remote jobs, and hybrid in last place.
 
-2. **Distribusi Gaji Berdasarkan Tahun**:
-   - Membandingkan distribusi gaji antar tahun untuk mengidentifikasi tren kenaikan atau penurunan.
+2. **Salary Distribution by Year**:
+   - Compare salary distributions across years to identify upward or downward trends.
 
-3. **Pekerjaan dengan Gaji Tertinggi**:
-   - Menampilkan 10 profesi di bidang Data Science dengan rata-rata gaji tertinggi.
+3. **Highest Paying Jobs**:
+   - Showing 10 professions in the field of Data Science with the highest average salary.
 
-4. **Hubungan Pengalaman dengan Gaji**:
-   - Visualisasi hubungan langsung antara tingkat pengalaman (junior, mid-level, senior) dengan gaji rata-rata.
+4. **Relationship between Experience and Salary**:
+   - Visualization of the direct relationship between experience level (junior, mid-level, senior) and average salary.
 
-## Kontribusi
-Kami menyambut kontribusi! Jika Anda memiliki ide atau ingin menambahkan fitur baru, silakan lakukan langkah berikut:
-1. Fork repositori ini.
-2. Buat branch baru untuk fitur Anda:
+## Contribution
+We welcome contributions! If you have an idea or would like to add a new feature, please follow these steps::
+1. Fork this repository.
+2. Create a new branch for your feature:
    ```bash
-   git checkout -b fitur-baru
+   git checkout -b new-feature
    ```
-3. Commit perubahan Anda:
+3. Commit your changes:
    ```bash
-   git commit -m "Menambahkan fitur baru"
+   git commit -m "Adding new feature"
    ```
-4. Push ke branch Anda:
+4. Push to your branch:
    ```bash
-   git push origin fitur-baru
+   git push origin new_feature
    ```
-5. Ajukan pull request.
+5. Submit a pull request.
 
-## Lisensi
-Proyek ini dilisensikan di bawah MIT License. Anda bebas menggunakan, memodifikasi, dan mendistribusikan proyek ini dengan menyebutkan hak cipta asli.
-
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project provided you acknowledge the original copyright notice.

@@ -13,7 +13,7 @@ data['work_year'] = data['work_year'].astype(str)
 
 # --- Header ---
 st.title("💼 Data Science Salaries Dashboard")
-st.markdown("##### 📊 Machine Learning Division — GDG | By: Adityo Pangestu")
+st.markdown("##### Data Analyst | By: Adityo Pangestu")
 st.markdown("Explore salary insights from the global data science workforce. Use the sidebar to customize your view.")
 
 # --- Insight utama ---

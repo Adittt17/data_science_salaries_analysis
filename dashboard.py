@@ -112,7 +112,7 @@ if "Top Job Titles by Average Salary" in options:
     plot_to_streamlit(plot_top_jobs)
     st.info("""
     🏅 **Insight:**  
-    Roles like **Principal Data Scientist** and **Machine Learning Researcher** dominate the top salary tier.  
+    Roles like **Analytics Engineering Manager** and **Data Science Tech Lead** dominate the top salary tier.  
     This shows that specialized or leadership roles drive higher compensation.
     """)
 
@@ -130,7 +130,7 @@ if "Average Salary by Company Size" in options:
     plot_to_streamlit(plot_company_size)
     st.info("""
     🏭 **Insight:**  
-    Larger companies tend to offer higher salaries, but mid-size companies are often competitive too.  
+    Mid-size companies tend to offer higher salaries, but Large companies are often competitive too.  
     Startups and small orgs may offer lower base pay but compensate via equity or perks.
     """)
 
@@ -148,7 +148,7 @@ if "Average Salary by Employment Type" in options:
     plot_to_streamlit(plot_employment_type)
     st.info("""
     📄 **Insight:**  
-    **Contract and freelance roles** may vary in pay, but **full-time positions** consistently provide higher average salaries.  
+    **Contract and part time roles** may vary in pay, but **full-time positions** consistently provide higher average salaries.  
     Stable employment correlates with better compensation.
     """)
 
@@ -165,8 +165,7 @@ if "Average Salary by Company Location" in options:
 
     plot_to_streamlit(plot_company_location)
     st.info("""
-    🌐 **Insight:**  
-    Companies based in the United States, Switzerland, and Israel offer the highest average salaries.  
+    🌐 **Insight:**    
     Location remains a key factor in salary variation — often due to cost of living and tech maturity.
     """)
 
@@ -184,9 +183,11 @@ if "Average Salary by Remote Ratio" in options:
     plot_to_streamlit(plot_remote)
     st.info("""
     💻 **Insight:**  
-    Fully remote roles tend to offer slightly higher average salaries.  
-    This may reflect cost arbitrage (e.g. US-based firms hiring global talent) or the rising value of remote-first skills.
+    Surprisingly, **fully on-site roles (0% remote)** have the highest average salaries.  
+    This may indicate that top-paying companies still value in-person presence for certain strategic or high-impact roles.  
+    Remote and hybrid jobs offer flexibility, but may not always come with the highest pay.
     """)
+
 
 # --- Footer ---
 st.markdown("---")
